@@ -1,0 +1,46 @@
+{
+    "name": "sketchphp/sketchphp",
+    "type": "library",
+    "description": "SketchPHP: Just a stunningly lightweight micro-framework.",
+    "homepage": "https://github.com/SketchPHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edson Onildo",
+            "email": "inbox.edsononildo@gmail.com",
+            "homepage": "https://github.com/EdsonOnildoJR",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SketchPHP\\": "src/SketchPHP/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/SketchPHP/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "example": "php -S localhost:3000 -t example",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
