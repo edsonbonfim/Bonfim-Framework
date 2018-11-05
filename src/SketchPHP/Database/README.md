@@ -1,8 +1,3 @@
-SketchPHP View Component
-========================
-
-This is the full documentation for SketchPHP View Component 1.0.x
-
 Table of Contents
 -----------------
 
