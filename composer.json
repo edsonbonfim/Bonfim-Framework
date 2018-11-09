@@ -1,5 +1,5 @@
 {
-    "name": "sketchphp/sketchphp",
+    "name": "sketchphp/framework",
     "type": "library",
     "description": "SketchPHP: Just a stunningly lightweight micro-framework.",
     "homepage": "https://github.com/SketchPHP",
