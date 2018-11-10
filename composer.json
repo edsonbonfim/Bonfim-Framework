@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SketchPHP\\": "src/SketchPHP/"
+            "Sketch\\": "src/SketchPHP/"
         }
     },
     "autoload-dev": {
