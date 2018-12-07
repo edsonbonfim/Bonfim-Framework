@@ -32,7 +32,7 @@ class Client
     /**
      * @var array
      */
-    private $args;
+    private $args = [];
 
     private $status;
 
@@ -47,7 +47,6 @@ class Client
         $this->method = $route['method'];
         $this->callback = $route['callback'];
         $this->status = $route['status'];
-        $this->args = new Request;
 
         $data = json_decode(file_get_contents('php://input'));
 
@@ -106,7 +105,7 @@ class Client
     /**
      * @return array|mixed
      */
-    public function getArgs(): Request
+    public function getArgs()
     {
         return $this->args;
     }
@@ -126,7 +125,7 @@ class Client
      */
     public function setArg(string $key, string $value): void
     {
-        $this->args->$key = $value;
+        $this->args[$key] = $value;
     }
 
     /**
