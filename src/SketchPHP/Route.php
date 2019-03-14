@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Classe de fachada que gerencia a logica de rotas
- * https://en.wikipedia.org/wiki/Facade_pattern
- */
-
 namespace Sketch;
 
 use Sketch\Http\{Router, Client};

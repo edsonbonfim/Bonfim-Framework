@@ -14,8 +14,8 @@
     ],
     "require": {
         "php" : ">=7.1.0",
-        "edsononildo/router": "2.0.x-dev",
-        "edsononildo/tpl": "3.0.x-dev"
+        "edsononildo/router": "dev-master",
+        "edsononildo/tpl": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=5.4.3",
