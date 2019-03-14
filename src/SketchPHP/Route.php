@@ -2,8 +2,8 @@
 
 namespace Sketch;
 
-use Sketch\Http\{Router, Client};
-use Sketch\View\Tpl;
+use EdsonOnildo\Tpl\Tpl;
+use EdsonOnildo\Router\{Router, Client};
 
 class Route
 {
