@@ -1,19 +1,53 @@
-# SketchPHP
+# PHP-Framework-Core
 
-[![Latest Version][ico-version]][link-version]
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![StyleCI][ico-styleci]][link-styleci]
+[![Total Downloads][ico-downloads]][link-downloads]
 
-SketchPHP: Just a stunningly lightweight micro-framework.
+**Note:** Replace ```Edson Onildo``` ```EdsonOnildoJR``` ```https://github.com/EdsonOnildoJR``` ```inbox.edsononildo@gmail.com``` ```EdsonOnildoJR``` ```PHP-Framework-Core``` `````` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
+
+This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
+PSRs you support to avoid any confusion with users and contributors.
+
+## Structure
+
+If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
+
+```
+bin/        
+config/
+src/
+tests/
+vendor/
+```
+
 
 ## Install
 
 Via Composer
 
-``` sh
-$ composer require sketchphp/sketchphp
+``` bash
+$ composer require EdsonOnildoJR/PHP-Framework-Core
+```
+
+## Usage
+
+``` php
+$skeleton = new edsononildo\framework();
+echo $skeleton->echoPhrase('Hello, League!');
+```
+
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Testing
+
+``` bash
+$ composer test
 ```
 
 ## Contributing
@@ -33,16 +67,17 @@ If you discover any security related issues, please email inbox.edsononildo@gmai
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/github/release/EdsonOnildoJR/SketchPHP.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/EdsonOnildoJR/SketchPHP/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/EdsonOnildoJR/SketchPHP.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/EdsonOnildoJR/SketchPHP.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/{styleci}/shield?branch=master
+[ico-version]: https://img.shields.io/packagist/v/EdsonOnildoJR/PHP-Framework-Core.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/EdsonOnildoJR/PHP-Framework-Core/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/EdsonOnildoJR/PHP-Framework-Core.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/EdsonOnildoJR/PHP-Framework-Core.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/EdsonOnildoJR/PHP-Framework-Core.svg?style=flat-square
 
-[link-version]:https://github.com/EdsonOnildoJR/SketchPHP/releases
-[link-travis]: https://travis-ci.org/EdsonOnildoJR/SketchPHP
-[link-scrutinizer]: https://scrutinizer-ci.com/g/EdsonOnildoJR/SketchPHP/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/EdsonOnildoJR/SketchPHP
-[link-styleci]: https://styleci.io/repos/124528765
+[link-packagist]: https://packagist.org/packages/EdsonOnildoJR/PHP-Framework-Core
+[link-travis]: https://travis-ci.org/EdsonOnildoJR/PHP-Framework-Core
+[link-scrutinizer]: https://scrutinizer-ci.com/g/EdsonOnildoJR/PHP-Framework-Core/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/EdsonOnildoJR/PHP-Framework-Core
+[link-downloads]: https://packagist.org/packages/EdsonOnildoJR/PHP-Framework-Core
 [link-author]: https://github.com/EdsonOnildoJR
-[link-contributors]: https://github.com/EdsonOnildoJR/SketchPHP/contributors
+[link-contributors]: ../../contributors
