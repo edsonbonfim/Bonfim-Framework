@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+define('BONFIM_START', microtime(true));
+
+include 'vendor/autoload.php';
+
+$app = new Bonfim\Framework\App;
+$status = $app->console();
+
+exit($status);
