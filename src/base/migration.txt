@@ -17,6 +17,6 @@ class @class extends Schema
 
     public function down()
     {
-
+        $this->drop('@table');
     }
 }

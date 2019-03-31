@@ -3,7 +3,7 @@
 /**
  * Database connection
  */
-Database::connection('mysql:host=localhost;dbname=note', 'root', 'batatapalha123');
+Database::conn('mysql:host=localhost;dbname=note', 'root', '');
 
 /**
  * Template Engine
